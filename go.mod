@@ -1,4 +1,4 @@
-module github.com/go-eagle/eagle
+module github.com/oliver258/eagle
 
 go 1.16
 
