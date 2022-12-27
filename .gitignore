@@ -39,6 +39,7 @@ cover.out
 .idea/*
 bin/
 .DS_Store
+.vscode/
 
 vendor
 
