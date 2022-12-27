@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/internal/repository"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/internal/model"
+	"github.com/oliver258/eagle/internal/repository"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 const (

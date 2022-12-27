@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 var (

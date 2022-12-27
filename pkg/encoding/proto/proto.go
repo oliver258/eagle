@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/go-eagle/eagle/pkg/encoding"
+	"github.com/oliver258/eagle/pkg/encoding"
 )
 
 // Name is the name registered for the proto compressor.

@@ -18,8 +18,8 @@ import (
 	healthPb "google.golang.org/grpc/health/grpc_health_v1"
 	"google.golang.org/grpc/reflection"
 
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/utils"
+	logger "github.com/oliver258/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/utils"
 )
 
 // ServerOption is gRPC server option.

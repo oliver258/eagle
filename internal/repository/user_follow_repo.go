@@ -7,8 +7,8 @@ import (
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/internal/model"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 // CreateUserFollow .

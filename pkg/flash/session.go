@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/sessions"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 // Store cookie storage

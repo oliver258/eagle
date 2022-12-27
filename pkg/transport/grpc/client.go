@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/transport/grpc/resolver/discovery"
 	grpcZap "github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
 	grpcPrometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
+	logger "github.com/oliver258/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/transport/grpc/resolver/discovery"
 	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/balancer/roundrobin"

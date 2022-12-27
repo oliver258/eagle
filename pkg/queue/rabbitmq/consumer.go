@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/oliver258/eagle/pkg/utils"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/log"
 	"github.com/streadway/amqp"
 )
 

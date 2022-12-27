@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/pkg/metric"
+	"github.com/oliver258/eagle/pkg/metric"
 )
 
 var namespace = ""

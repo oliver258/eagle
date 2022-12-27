@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/oliver258/eagle/pkg/utils"
 
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"go.uber.org/zap"

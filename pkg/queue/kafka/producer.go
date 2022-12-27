@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	logger "github.com/go-eagle/eagle/pkg/log"
+	logger "github.com/oliver258/eagle/pkg/log"
 )
 
 // Producer kafka producer

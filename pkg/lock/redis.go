@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/log"
 
 	"github.com/go-redis/redis/v8"
 )

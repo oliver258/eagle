@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/go-eagle/eagle/internal/routers"
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/transport/http"
+	"github.com/oliver258/eagle/internal/routers"
+	"github.com/oliver258/eagle/pkg/app"
+	"github.com/oliver258/eagle/pkg/transport/http"
 )
 
 // NewHTTPServer creates a HTTP server

@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/go-eagle/eagle/internal/model"
+	"github.com/oliver258/eagle/internal/model"
 )
 
 // TransferUserInput 转换输入字段

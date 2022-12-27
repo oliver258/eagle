@@ -1,6 +1,6 @@
 package ecode
 
-import "github.com/go-eagle/eagle/pkg/errcode"
+import "github.com/oliver258/eagle/pkg/errcode"
 
 //nolint: golint
 var (

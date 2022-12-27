@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/oliver258/eagle/pkg/utils"
 
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"

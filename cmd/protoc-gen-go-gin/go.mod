@@ -1,4 +1,4 @@
-module github.com/go-eagle/eagle/cmd/protoc-gen-go-gin
+module github.com/oliver258/eagle/cmd/protoc-gen-go-gin
 
 go 1.16
 

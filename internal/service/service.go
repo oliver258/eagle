@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/go-eagle/eagle/internal/repository"
+	"github.com/oliver258/eagle/internal/repository"
 )
 
 // Svc global var

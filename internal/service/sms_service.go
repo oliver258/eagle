@@ -5,7 +5,7 @@ import (
 	"github.com/qiniu/api.v7/auth"
 	"github.com/qiniu/api.v7/sms"
 
-	"github.com/go-eagle/eagle/internal/repository"
+	"github.com/oliver258/eagle/internal/repository"
 )
 
 // SMSService define interface func

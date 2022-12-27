@@ -8,7 +8,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/oliver258/eagle/pkg/config"
 )
 
 // log is A global variable so that log functions can be directly accessed

@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cast"
 	"google.golang.org/grpc/status"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
-	httpstatus "github.com/go-eagle/eagle/pkg/transport/http/status"
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/oliver258/eagle/pkg/errcode"
+	httpstatus "github.com/oliver258/eagle/pkg/transport/http/status"
+	"github.com/oliver258/eagle/pkg/utils"
 )
 
 var resp *Response

@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/transport"
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/oliver258/eagle/pkg/transport"
+	"github.com/oliver258/eagle/pkg/utils"
 )
 
 var (

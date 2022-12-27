@@ -3,13 +3,13 @@ package user
 import (
 	"context"
 
-	"github.com/go-eagle/eagle/internal/service"
+	"github.com/oliver258/eagle/internal/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/cast"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/errcode"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 // Update 更新用户信息

@@ -5,8 +5,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/go-eagle/eagle/pkg/config"
-	"github.com/go-eagle/eagle/pkg/storage/orm"
+	"github.com/oliver258/eagle/pkg/config"
+	"github.com/oliver258/eagle/pkg/storage/orm"
 )
 
 // DB 数据库全局变量

@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	TraceName  = "github.com/go-eagle/eagle/trace/plugins/function"
+	TraceName  = "github.com/oliver258/eagle/trace/plugins/function"
 	PluginName = "function"
 )
 

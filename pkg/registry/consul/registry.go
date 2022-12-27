@@ -9,7 +9,7 @@ import (
 
 	"github.com/hashicorp/consul/api"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/oliver258/eagle/pkg/registry"
 )
 
 var (

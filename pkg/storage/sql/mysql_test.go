@@ -11,9 +11,9 @@ package sql
 //	"github.com/spf13/pflag"
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/go-eagle/eagle/pkg/conf"
-//	logger "github.com/go-eagle/eagle/pkg/log"
-//	xtime "github.com/go-eagle/eagle/pkg/time"
+//	"github.com/oliver258/eagle/pkg/conf"
+//	logger "github.com/oliver258/eagle/pkg/log"
+//	xtime "github.com/oliver258/eagle/pkg/time"
 //)
 //
 //var (

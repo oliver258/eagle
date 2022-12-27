@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/oliver258/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/registry"
 )
 
 type discoveryResolver struct {

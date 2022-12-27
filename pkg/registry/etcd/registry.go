@@ -8,7 +8,7 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/oliver258/eagle/pkg/registry"
 )
 
 var (

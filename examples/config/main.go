@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/oliver258/eagle/pkg/config"
 )
 
 func main() {

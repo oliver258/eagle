@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-mail/mail"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 // SMTPConfig SMTP配置

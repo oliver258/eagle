@@ -7,9 +7,9 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"gorm.io/gorm"
 
-	"github.com/go-eagle/eagle/internal/cache"
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/storage/sql"
+	"github.com/oliver258/eagle/internal/cache"
+	"github.com/oliver258/eagle/internal/model"
+	"github.com/oliver258/eagle/pkg/storage/sql"
 )
 
 var (

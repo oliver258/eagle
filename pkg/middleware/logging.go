@@ -10,9 +10,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/willf/pad"
 
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/app"
+	"github.com/oliver258/eagle/pkg/errcode"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 type bodyLogWriter struct {

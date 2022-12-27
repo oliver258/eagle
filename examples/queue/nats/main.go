@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/queue/nats"
+	"github.com/oliver258/eagle/pkg/queue/nats"
 )
 
 func main() {

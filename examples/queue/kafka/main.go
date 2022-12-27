@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/Shopify/sarama"
-	"github.com/go-eagle/eagle/pkg/queue/kafka"
+	"github.com/oliver258/eagle/pkg/queue/kafka"
 )
 
 func main() {

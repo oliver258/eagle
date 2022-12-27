@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/consul/api"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/oliver258/eagle/pkg/config"
 )
 
 // Config consul config

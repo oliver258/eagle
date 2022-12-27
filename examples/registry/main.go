@@ -17,21 +17,21 @@ import (
 	"log"
 	"os"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/oliver258/eagle/pkg/config"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
 	etcdclient "go.etcd.io/etcd/client/v3"
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/internal/repository"
-	"github.com/go-eagle/eagle/internal/server"
-	"github.com/go-eagle/eagle/internal/service"
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/registry/etcd"
-	v "github.com/go-eagle/eagle/pkg/version"
+	"github.com/oliver258/eagle/internal/model"
+	"github.com/oliver258/eagle/internal/repository"
+	"github.com/oliver258/eagle/internal/server"
+	"github.com/oliver258/eagle/internal/service"
+	eagle "github.com/oliver258/eagle/pkg/app"
+	logger "github.com/oliver258/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/registry/etcd"
+	v "github.com/oliver258/eagle/pkg/version"
 )
 
 var (

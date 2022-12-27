@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/errcode"
+	"github.com/oliver258/eagle/pkg/app"
+	"github.com/oliver258/eagle/pkg/errcode"
 )
 
 // Auth authorize user

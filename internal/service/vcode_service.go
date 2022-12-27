@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-eagle/eagle/internal/repository"
+	"github.com/oliver258/eagle/internal/repository"
 
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/redis"
+	"github.com/oliver258/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/redis"
 )
 
 // 验证码服务，主要提供生成验证码和获取验证码

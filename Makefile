@@ -2,7 +2,7 @@ SHELL := /bin/bash
 BASEDIR = $(shell pwd)
 
 # build with version infos
-versionDir = "github.com/go-eagle/eagle/pkg/version"
+versionDir = "github.com/oliver258/eagle/pkg/version"
 gitTag = $(shell if [ "`git describe --tags --abbrev=0 2>/dev/null`" != "" ];then git describe --tags --abbrev=0; else git log --pretty=format:'%h' -n 1; fi)
 buildDate = $(shell TZ=Asia/Shanghai date +%FT%T%z)
 gitCommit = $(shell git log --pretty=format:'%H' -n 1)
@@ -10,7 +10,7 @@ gitTreeState = $(shell if git status|grep -q 'clean';then echo clean; else echo 
 
 ldflags="-w -X ${versionDir}.gitTag=${gitTag} -X ${versionDir}.buildDate=${buildDate} -X ${versionDir}.gitCommit=${gitCommit} -X ${versionDir}.gitTreeState=${gitTreeState}"
 
-PROJECT_NAME := "github.com/go-eagle/eagle"
+PROJECT_NAME := "github.com/oliver258/eagle"
 PKG := "$(PROJECT_NAME)"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
@@ -120,7 +120,7 @@ graph:
   		go get -u github.com/ofabry/go-callvis; \
   	fi
 	@echo "generating graph"
-	@go-callvis github.com/go-eagle/eagle
+	@go-callvis github.com/oliver258/eagle
 
 .PHONY: mockgen
 # make mockgen gen mock file

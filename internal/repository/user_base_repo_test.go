@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-eagle/eagle/internal/model"
+	"github.com/oliver258/eagle/internal/model"
 )
 
 type Suite struct {

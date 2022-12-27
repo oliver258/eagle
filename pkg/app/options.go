@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/oliver258/eagle/pkg/registry"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/transport"
+	"github.com/oliver258/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/transport"
 )
 
 // Option is func for application

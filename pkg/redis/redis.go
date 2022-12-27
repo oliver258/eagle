@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/oliver258/eagle/pkg/config"
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/go-redis/redis/extra/redisotel/v8"

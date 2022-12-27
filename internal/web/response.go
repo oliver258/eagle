@@ -7,9 +7,9 @@ import (
 	"github.com/gorilla/sessions"
 	"github.com/spf13/viper"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/flash"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/oliver258/eagle/pkg/errcode"
+	"github.com/oliver258/eagle/pkg/flash"
+	"github.com/oliver258/eagle/pkg/log"
 )
 
 // Resp web response struct
